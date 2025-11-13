@@ -1,0 +1,32 @@
+── Data Summary ────────────────────────
+                           Values
+Name                       daily 
+Number of rows             457   
+Number of columns          15    
+_______________________          
+Column type frequency:           
+  character                1     
+  numeric                  14    
+________________________         
+Group variables            None  
+
+── Variable type: character ─────────────────────────────────────────────────────────────────────────────────────────────────────
+  skim_variable n_missing complete_rate min max empty n_unique whitespace
+1 activity_date         0             1   8   9     0       32          0
+
+── Variable type: numeric ───────────────────────────────────────────────────────────────────────────────────────────────────────
+   skim_variable              n_missing complete_rate    mean      sd         p0     p25     p50     p75    p100 hist 
+ 1 id                                 0             1 4.63e+9 2.29e+9 1503960366 2.35e+9 4.06e+9 6.39e+9 8.88e+9 ▇▇▃▅▃
+ 2 total_steps                        0             1 6.55e+3 5.40e+3          0 1.99e+3 5.99e+3 1.02e+4 2.85e+4 ▇▆▂▁▁
+ 3 total_distance                     0             1 4.66e+0 4.08e+0          0 1.41e+0 4.09e+0 7.16e+0 2.75e+1 ▇▅▁▁▁
+ 4 tracker_distance                   0             1 4.61e+0 4.07e+0          0 1.28e+0 4.09e+0 7.11e+0 2.75e+1 ▇▅▁▁▁
+ 5 logged_activities_distance         0             1 1.79e-1 8.49e-1          0 0       0       0       6.73e+0 ▇▁▁▁▁
+ 6 very_active_distance               0             1 1.18e+0 2.49e+0          0 0       0       1.31e+0 2.19e+1 ▇▁▁▁▁
+ 7 moderately_active_distance         0             1 4.79e-1 8.31e-1          0 0       2.00e-2 6.70e-1 6.40e+0 ▇▁▁▁▁
+ 8 light_active_distance              0             1 2.89e+0 2.24e+0          0 8.70e-1 2.93e+0 4.46e+0 1.25e+1 ▇▆▂▁▁
+ 9 sedentary_active_distance          0             1 1.90e-3 8.49e-3          0 0       0       0       1.00e-1 ▇▁▁▁▁
+10 very_active_minutes                0             1 1.66e+1 2.89e+1          0 0       0       2.5 e+1 2.02e+2 ▇▁▁▁▁
+11 fairly_active_minutes              0             1 1.31e+1 3.62e+1          0 0       1   e+0 1.6 e+1 6.6 e+2 ▇▁▁▁▁
+12 lightly_active_minutes             0             1 1.70e+2 1.22e+2          0 6.4 e+1 1.81e+2 2.57e+2 7.2 e+2 ▇▇▂▁▁
+13 sedentary_minutes                  0             1 9.95e+2 3.37e+2         32 7.28e+2 1.06e+3 1.28e+3 1.44e+3 ▁▂▆▅▇
+14 calories                           0             1 2.19e+3 8.15e+2          0 1.78e+3 2.06e+3 2.67e+3 4.56e+3 ▁▅▇▃▁
